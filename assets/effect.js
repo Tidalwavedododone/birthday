@@ -1,8 +1,6 @@
 $(window).load(function(){
 	$('.loading').fadeOut('fast');
-	$('.container').fadeIn('fast').promise().done(function(){
-		$('#surprise').fadeOut('fast');
-	});
+	$('.container').fadeIn('fast');
 });
 $('document').ready(function(){
 		var vw;
@@ -181,7 +179,6 @@ $('document').ready(function(){
 			if(i==50){
 				$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
 					$('.cake').fadeIn('fast');
-					$('#surprise').fadeIn('slow');
 				});
 				
 			}
