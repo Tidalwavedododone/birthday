@@ -47,6 +47,6 @@ var config = {
         light_candle: "点上蜡烛吧",
         wish_message: "21岁生日快乐！",
         story: "A MESSAGE FOR YOU",
-        surprise:"祝你永远永远永远都快乐",
+        
     }
 };
