@@ -187,7 +187,7 @@ $('document').ready(function(){
 			}			
 
 		});
-			// body...
+			$('#surprise').fadeIn('slow');// body...
 		}
 		
 		msgLoop(0);
